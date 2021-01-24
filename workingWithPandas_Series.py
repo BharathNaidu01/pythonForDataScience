@@ -1,5 +1,6 @@
 #getting started with pandas library
-#series
+#series. Here we are converting a list into a series.
+#Series is nothing but one dimensional.
 
 import pandas as pd
 
@@ -7,8 +8,7 @@ import pandas as pd
 cricket_grounds =  pd.Series(["Wankhade","Chinnaswamy","Chepauk"
                               ,"Ranchi"])
 
-#here we are converting a list into a series. 
-#Here series is nothing but one dimensional
+
 
 
 #print(cricket_grounds)
